@@ -31,7 +31,7 @@ deepfake_audio/
 ### **Mac / Linux**
 
 ```
-cd /path/to/AudioDetect
+cd deepfake_audio
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### **Windows**
 
 ```
-cd \path\to\AudioDetect
+cd deepfake_audio
 python -m venv venv
 venv\Scripts\activate
 pip install --upgrade pip
