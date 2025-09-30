@@ -1,0 +1,4 @@
+Trained_Model.pth
+venv/
+__pycache__/
+.gitignore

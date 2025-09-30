@@ -1,0 +1,12 @@
+optimizer: Adam
+amsgrad: 1   # for Adam optimizer
+
+model:
+  nb_samp: 64600
+  first_conv: 1024          # no. of filter coefficients
+  in_channels: 1
+  filts: [20, [20, 20], [20, 128], [128, 128]]  # filters per residual block
+  blocks: [2, 4]            # number of residual blocks per stage
+  nb_fc_node: 1024
+  gru_node: 1024
+  nb_gru_layer: 3
